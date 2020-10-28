@@ -1,11 +1,11 @@
-const eqArrays = function(arr1, arr2){
-  if(arr1 === undefined || arr2 === undefined){
+const eqArrays = function(arr1, arr2) {
+  if (arr1 === undefined || arr2 === undefined) {
     return false;
-  } else if(arr1.length !== arr2.length){
+  } else if (arr1.length !== arr2.length) {
     return false;
   } else {
-    for (let i = 0; i < arr1.length; i++){
-      if(arr1[i] !== arr2[i]){
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr1[i] !== arr2[i]) {
         return false;
       }
     }
